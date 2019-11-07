@@ -1,0 +1,132 @@
+header {
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid #ff1414
+}
+
+a.header-logo img {
+    max-height: 100px;
+    max-width: 100px
+}
+
+a.header-logo img {
+    max-height: 100px;
+    max-width: 100px
+}
+
+.nav-wrapper {
+    width: 100%;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 75px
+}
+
+.button-holder {
+    display: none
+}
+
+button.paypal-button {
+    width: 295px;
+    height: 30px;
+    background: #ffc439;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px
+}
+
+nav.nav-header-main {
+    -ms-flex-item-align: end;
+    align-self: flex-end
+}
+
+nav.nav-header-main ul {
+    display: none
+}
+
+.btn-toggle-nav {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.btn-toggle-nav-img {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/menu.png);
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.nav-header-mobile {
+    /* display: none; */
+    position: relative;
+    padding: 0 5px 25px 0;
+    background-color: #d9dde2;
+    z-index: 99
+}
+
+.nav-header-mobile ul {
+    overflow: hidden
+}
+
+.nav-header-mobile ul:nth-child(1) {
+    padding-top: 15px
+}
+
+.nav-header-mobile ul li {
+    padding: 0 15px;
+    line-height: 40px;
+    list-style: none
+}
+
+.nav-header-mobile ul li.button {
+    padding: 0;
+    line-height: 40px;
+    list-style: none
+}
+
+.nav-header-mobile ul li.button form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.nav-header-mobile ul li span,.nav-header-mobile ul li a {
+    display: block;
+    height: 60px;
+    text-decoration: none;
+    color: #ff1414;
+    font-size: 16px;
+    white-space: nowrap;
+    opacity: .5
+}
+
+.nav-header-mobile ul li a {
+    padding: 0;
+    color: #000
+}
+
+.nav-header-mobile ul li a button {
+    opacity: 0
+}
